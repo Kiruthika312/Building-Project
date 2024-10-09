@@ -183,7 +183,7 @@ section{
     color: var(--color3--);
 }
 .content-heading{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .content-container{
     display: flex;
@@ -191,7 +191,7 @@ section{
     justify-content: space-between;
 }
 .content-box{
-    width: 450px;    
+    width: 50%;    
 }
 .content-box h3{
     padding: 18px 0;
