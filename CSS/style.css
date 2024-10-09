@@ -303,14 +303,9 @@ section{
 }
 .card-box img{
     width: 300px;
-}
-.card-box .img-3{
-    width: 300px;
     height: 200px;
 }
-.card-box .div-3{
-    width: 300px; 
-}
+
 .card-div{
     padding: 30px 40px 30px 30px;
     border: 1.5px solid #c9c7c7;
