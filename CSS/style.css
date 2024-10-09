@@ -353,21 +353,20 @@ section{
 .input-boxes{
     display: flex;
     flex-wrap: wrap;
-
 }
 .input-boxes input{
     padding: 6px;
-    margin: 5px 6px 13px 5px;
-    width: 47%;
+    margin: 9px 13px 13px 5px;
+    width: 45%;
     border-radius: none;
     border: none;
     border: 1px solid #888888;
     outline: none;
 }
 .password-box input{
-    width: 97%;
+    width: 95%;
     padding: 6px;
-    margin: 5px 0 13px 5px;
+    margin: 9px 0 13px 5px;
     border-radius: none;
     border: none;
     border: 1px solid #888888;
@@ -379,6 +378,17 @@ section{
     padding: 6px 20px;
     cursor: pointer;
 }
+.input-boxes input:focus{
+    outline: 0;
+}
+
+.input-boxes.success{
+    border-color:#09c372 ;
+}
+.input-boxes.error{
+    border-color: rgb(245, 8, 8);
+}
+
 ::placeholder{
     color: #acabab;
     font-weight: 200;
@@ -514,12 +524,13 @@ section{
 
     .build-img-box img{
         width: 100%;
+        height: 380px;
     }
     .card-box{
         margin-bottom: 40px;
     }
     .signin-container{
-        width: 300px;
+        width: 320px;
         height: fit-content;
     }
     .input-boxes input{
