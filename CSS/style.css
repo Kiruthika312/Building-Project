@@ -533,9 +533,7 @@ section{
     .password-box input{
         width: 95%;
     }
-    .card-box,.card-box img{
-        width: 250px;
-    }
+    
     #photp-container{
         text-align: center;
     }
